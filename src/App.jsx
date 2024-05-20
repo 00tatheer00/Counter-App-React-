@@ -9,6 +9,7 @@ function App() {
       <p>Current count: {count}</p>
       <button class="firstBtn" onClick={() => setCount(count + 1)}>Increment</button>
       <button onClick={() => setCount(count - 1)}>Decrement</button>
+      <button class="thirdBtn" onClick={() => setCount(0)}>Reset</button>
     </div>
   );
 }
